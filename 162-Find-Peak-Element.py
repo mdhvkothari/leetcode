@@ -1,7 +1,8 @@
 from typing import List
 
-def findPeakElement(self, nums: List[int]) -> int:
+def findPeakElement(nums: List[int]) -> int:
     n = len(nums)  # length of the nums
+
     #  defining base cases
     if n == 1:
         return 0
