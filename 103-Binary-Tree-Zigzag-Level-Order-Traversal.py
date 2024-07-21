@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def zigzagLevelOrder(self, root) -> List[List[int]]:
         if not root:
             return []
         flag, result, q = 0, [], [root]
@@ -20,3 +23,4 @@ class Solution:
                 flag = 1
             result.append(temp)
         return result
+
