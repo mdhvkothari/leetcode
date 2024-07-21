@@ -1,6 +1,10 @@
 from typing import List
 
 
+## login we are maintain one flag variable when it is 1 then we have 
+## add temp array as a reverse else as it as and this is a Level Order Traversal
+
+
 class Solution:
     def zigzagLevelOrder(self, root) -> List[List[int]]:
         if not root:
