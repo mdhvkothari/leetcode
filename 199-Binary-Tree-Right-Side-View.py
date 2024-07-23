@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
 
-    def fun(self, root, level: int, ds: [int]) -> None:
+    def fun(self, root, level: int, ds: List[int]) -> None:
         if not root:
             return
         if len(ds) == level:
